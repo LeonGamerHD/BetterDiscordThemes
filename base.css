@@ -3658,27 +3658,6 @@ img[src="/assets/5fb477ca84edd15d9a2888ac28365acd.svg"] {
 .ace_closeButton:hover {
 	filter: brightness(120%);
 }
-
-/*9.u Changelog*/
-#bd-settingspane-container .bda-slist::before {
-  content:"Was ist neu in Anime Girl 1.x\Eine ausgeblendete Suchleiste \Viele neue Addons \Ein Light Theme Blocker \Neue ungelesene / ausgewählte Indikatoren \Ein überarbeitetes Benutzerprofil\Eine neue Titelleiste \Kompatibilitäts-Tags entfernen \Eine geänderte Server Dropdown Liste \neue Kontextmenü Animationen \Ein überarbeiteter Container mit Kontodetails \Eine Mitgliederlisten Optimierung \Ein Rework Variablensystem für var(--main-color); \Ein neues Gruppen DM Icon \Eine Kategorie Animation \Eine Neugestaltung der Reaktionen \Ein großer Emoji Picker \Ein neuer Container für den Ladebildschirm";
-  display: block;
-  line-height:22px;
-  font-size:18px;
-  position: relative;
-  background: var(--main-color);
-  padding: 10px 15px;
-  white-space: pre;
-  margin-bottom: 15px;
-  border-radius: 4px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.4);
-  font-weight: 500;
-  margin-top:-10px;
-  color: #fff;
-  text-transform: none;
-  overflow:hidden;
-  width:fit-content;
-}
 /*============== END OF SECTION ============== */
 
 /*10. Tag Animations*/
