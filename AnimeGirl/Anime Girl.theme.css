@@ -1,0 +1,22 @@
+/*//META{"name":"Anime Girl","description":"Anime Girl Theme made by LeonGamer_HD#2004","author":"LeonGamer_HD","version":"1.0", "website":"https://bit.ly/2OCgdy7"}*//**/	
+/*Import CSS From Github*/	
+@import url('https://leongamerhd.github.io/BetterDiscordThemes/AnimeGirl/css/base.css');
+
+:root {	
+/*Color Variables*/	
+	--main-color: linear-gradient(150deg, var(--gradient1), var(--gradient2)); /*Accent Color of the Theme*/	
+	--gradient1: #f66852; /*First Gradient Color*/	
+	--gradient2: #95a5c6; /*Second Gradient Color*/	
+	--hover-color: rgb(246, 104, 82); /*Secondary Accent of the Theme*/
+	--main-color-faded: rgba(149, 165, 198); /*Faded Main Color*/	
+/*Backdrop Variables*/	
+	--backdrop: url(https://images.alphacoders.com/967/thumb-1920-967724.jpg); /*Normal Backdrop*/	
+	--backdropblurred: url(https://i.imgur.com/mIHcKw6.png); /*Darker/Blurred Version of Backdrop*/	
+/*Status Variables*/	
+	--online: #43b581 !important; /*Color When someone is Online*/	
+	--idle: #faa61a !important; /*Color When someone is Idle*/	
+	--dnd: #f04747 !important; /*Color When someone is in Do Not Disturb*/	
+	--offline: #636b75 !important; /*Color When someone is offline*/	
+	--invisible: #747f8d !important; /*Color When someone is Invisible*/	
+	--streaming: #643da7 !important; /*Color When someone is Streaming*/	
+}
