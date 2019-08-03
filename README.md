@@ -5,4 +5,4 @@
                                         
                                         
                                         
-                                        Copyright: LeonGamer_HD®
+                                        Copyright: LeonGamer_HD 2019
