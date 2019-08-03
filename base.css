@@ -3,7 +3,7 @@
 @import url('https://tropix126.github.io/BetterDiscordStuff/blockBetterDocs.css');
 ::selection {background:var(--main-color-faded) !important;}
 /*
-Original file by Tropical
+Orginal datei von Tropical
 
 TABLE OF CONTENTS
 
@@ -198,7 +198,7 @@ body::before {
 
 /*1.d. Light Mode Blocker (Based on MasicoreLord's Light Theme blocker, taken with permission). */
 .theme-light .layer-3QrUeG:first-of-type::before {
-  content: "Entschuldigung, aber der Lichtmodus wird in Anime Girl noch nicht unterstützt. :( ~LeonGamer_HD";
+  content: "Entschuldigung, aber der Light-Modus wird in Anime Girl noch nicht unterstützt. :( ~LeonGamer_HD";
   text-align:center;
   width: 500px;
   position:absolute;
@@ -228,7 +228,7 @@ body::before {
 }
 .app-2rEoOp.vertical-V37hAW.theme-light .container-2Thooq > .noWrap-3jynv6 > .button-2b6hmh:before {
   position: absolute;
-  content: "Turn On Dark Mode";
+  content: "Dunklen Modus einschalten";
   padding:20px;
   width:200px;
   top: 50%;
@@ -268,7 +268,7 @@ body::before {
     padding-top:0px !important;
 }
 .wordmark-2iDDfm:after {
-	content:'LeonGamer_HD v1.0';
+	content:'Anine Girl v1.0';
 	position: absolute !important;
 	left: 5px;
 	width: 100vw;
@@ -4433,6 +4433,6 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
     opacity:.6;
 }
 /*Gemacht mit ♥ von Tropical und der Derealised Community.
-Vielen Dank auch an DevilBro, dass ich seine SVGs verwenden durfte, um das Theme zu verbessern!
+Vielen Dank auch an DevilBro, dass ich seine SVGs verwenden durfte, um das Thema zu verbessern!
 Übersetzung von LeonGamer_HD.
-Anpassung von LeonGamer_HD*/
+Anpassung von LeonGamer_HD.*/
