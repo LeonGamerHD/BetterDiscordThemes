@@ -1586,34 +1586,6 @@ body #app-mount .channel-2QD9_O.selected-1HYmZZ a {
 	background:transparent !important;
 }
 
-/*6.b. Selected and Hovered Content*/
-.members-1998pB .content-OzHfo4 {
-	transition: 100ms all linear;
-}
-.member-3W1lQa:hover .content-OzHfo4,
-.popout-open .content-OzHfo4 {
-	background:rgba(0,0,0,0.5) !important;
-}
-.mulitplePlaceholderUsername-pogq9I,
-.placeholderUsername-2B_OA9,
-.placeholderAvatar-damqh6 {
-    background:rgba(0,0,0,0.75);
-}
-.memberGroupsPlaceholder-3mwPub {
-  margin-left:55px;
-  margin-top:-5px;
-  background:var(--main-color);
-}
-.membersGroup-v9BXpm {
-  color: var(--hover-color) !important;
-  border-bottom: 3px solid;
-  border-image: linear-gradient(90deg, transparent, var(--gradient1), var(--gradient2), transparent);
-  border-image-slice: 1;
-  padding: 19px 16px 6px 16px;
-  margin: 4px 0px 10px 15px;
-  text-align: center;
-}
-
 /*6.c. User Status*/
 .status-oxiHuE:not(.status-3fQvEa).online-2S838R {
 	border-color: var(--online) !important;
