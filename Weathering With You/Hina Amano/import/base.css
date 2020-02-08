@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://monstrousdev.github.io/themes/addons/user-tags.css');
 @import url('https://tropix126.github.io/BetterDiscordStuff/blockBetterDocs.css');
-@import url('https://arudarin.github.io/themes/mini-themes/settingsIcons.css');
+@import url('https://codedotspectra.github.io/themes/mini-themes/statusRounded.css');
+@import url('https://gibbu.github.io/BetterDiscord-Themes/HorizontalServerlist/base.css');
 ::selection {background:var(--main-color-faded) !important;}
 /*
 Orginal datei von Tropical
@@ -17,65 +17,9 @@ TABLE OF CONTENTS
 2. Titlebar
   2.a. Main Titlebar
 */
-
-/*1. Background and Sizing*/
-/*1.a. Main Background*/
-body::before {
-  position: absolute;
-  content: '';
-  height: 100%;
-  width: 100%;
-  background-image: var(--backdrop);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  pointer-events: none;
-  box-shadow:inset 0 0 0 1000px var(--backdrop-darkness);
-}
-.layer-3QrUeG,
-.layers-3iHuyZ,
-.container-2lgZY8 {
-	background: transparent !important;
-}
-/*Makes aurora compatible with monsters addons*/
-.theme-dark,
-.appMount-3VJmYg {
-	--primary-color: rgba(0,0,0,0.75);
-	--secondary-color: rgba(0,0,0,0.6);
-	--tertiary-color: rgba(0,0,0,0.4);
-	--quaternary-color: rgba(0,0,0,0.7);
-}
-
-/*1.b. Spacing*/
-.app,
-.app-2rEoOp {
-	margin: 25px;
-	border-radius: 6px;
-	overflow: hidden;
-}
-.container-3gCOGc,
-#friends,
-.activityFeed-28jde9,
-.gameLibrary-TTDw4Y,
-.applicationStore-1pNvnv {
-	border-radius: 6px !important;
-}
-.base-3dtUhz {
-    border-radius:0 0 0 5px !important;
-}
-
-/*1.c. General Transparency*/
-#app-mount,
-.divider-3gKybi,
-.typing-2GQL18,
-.typing-2GQL18,
-.guild-1EfMGQ .guildInner-3DSoA4 {
-	background: transparent !important;
-}
-
 /*1.d. Light Mode Blocker (Based on MasicoreLord's Light Theme blocker, taken with permission). */
 .theme-light .layer-3QrUeG:first-of-type::before {
-  content: "Entschuldigung, aber der Light-Modus wird in Super Cute Megumin noch nicht unterstützt. :( ~LeonGamer_HD";
+  content: "Entschuldigung, aber der Light-Modus wird in Hina Amano noch nicht unterstützt. :( ~LeonGamer_HD";
   text-align:center;
   width: 500px;
   position:absolute;
@@ -133,17 +77,6 @@ body::before {
 
 /*2. Titlebar*/
 /*2.a. Main Titlebar*/
-.wordmark-2iDDfm path {
-	display:none;
-}
-.da-typeMacOS {
-    margin-left:1.25% !important;
-    margin-top:-0.3%;
-}
-#app-mount .wrapper-1Rf91z {
-    margin-top:0px !important;
-    padding-top:0px !important;
-}
 .wordmark-2iDDfm:after {
 	content:'Discord Hina Amano v1.0';
 	position: absolute !important;
@@ -153,68 +86,6 @@ body::before {
 	color: rgba(255,255,255,0.8);
 	font-size: 19px;
 	font-weight:bold;
-}
-.da-winButtonClose:active {
-    box-shadow:inset 0 0 1000px rgba(0,0,0,0.35);
-}
-.da-winButtonMinMax:active {
-    background:rgba(255,255,255,0.15);
-}
-.winButton-iRh8-Z:nth-child(3) svg {
-	display:none;
-}
-.da-winButton {
-    width:45px;
-    height:30px;
-    transition:250ms ease all;
-}
-.titleBar-AC4pGV .winButton-iRh8-Z:nth-child(3) {
-	background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSIjRkZGRkZGIj48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZD0iTTcgMTRINXY1aDV2LTJIN3YtM3ptLTItNGgyVjdoM1Y1SDV2NXptMTIgN2gtM3YyaDV2LTVoLTJ2M3pNMTQgNXYyaDN2M2gyVjVoLTV6Ii8+PC9zdmc+) !important;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 19px;
-}
-.da-winButtonClose:hover:after {
-    content:'Close';
-    position:absolute;
-    top:40px;
-    color:#dcddde;
-    background:inherit;
-    border-radius:5px;
-    animation: fadetop 150ms;
-    padding:8px 12px;
-    font-size:14px;
-    font-weight:500;
-    box-shadow:0px 0px 20px rgba(0, 0, 0, 0.5);
-    right:2px;
-}
-.da-winButton:nth-of-type(3):hover:after {
-    content:'Maximize';
-    position:absolute;
-    top:40px;
-    color:#dcddde;
-    background:var(--main-color);
-    padding:8px 12px;
-    border-radius:5px;
-    filter:none !important;
-    animation: fadetop 150ms;
-    font-size:14px;
-    font-weight:500;
-    box-shadow:0px 0px 20px rgba(0, 0, 0, 0.5);
-}
-.da-winButton:nth-of-type(4):hover:after {
-    content:'Minimize';
-    background:var(--main-color);
-    position:absolute;
-    top:40px;
-    color:#dcddde;
-    padding:8px 12px;
-    border-radius:5px;
-    opacity:1;
-    animation: fadetop 150ms;
-    font-size:14px;
-    font-weight:500;
-    box-shadow:0px 0px 20px rgba(0, 0, 0, 0.5);
 }
 
 /*Gemacht mit ♥ von Tropical und der Derealised Community.
